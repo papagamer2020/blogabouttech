@@ -7,7 +7,7 @@ Blog About Tech allows a user to sign up or login. A user is able to view the bl
 
 To view the site visit, https://papagamer2020.github.io/blogabouttech/
 
-View a demo here, Demo
+
 
 Getting started
 You will need to have node installed. Clone this repo and run npm install to install the dependencies. You will need to create a .env file. Inside this file you will store these variables:
