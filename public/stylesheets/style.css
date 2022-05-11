@@ -1,0 +1,62 @@
+body {
+    background-color: #e6e8e3;
+    font-family: "Hubballi", cursive;
+  }
+  
+  .navbar {
+    background-color: #b4c1a5;
+  }
+  
+  .navbar-brand {
+    font-family: "Bungee Inline", cursive;
+  }
+  
+  .navbar-item {
+    font-family: "Monofett", cursive;
+  }
+  
+  .login-form h2,
+  .signup-form h2 {
+    font-family: "Faster One", cursive;
+  }
+  
+  .card {
+    margin: 40px 40px 0 40px;
+  }
+  
+  .card-header {
+    background-color: #b4c1a5;
+  }
+  
+  #posted-by {
+    padding-left: 50%;
+  }
+  
+  .btn-no-style {
+    background-color: #a5b6c1;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .new-post-form,
+  .comment-form,
+  .comments {
+    margin: 40px 40px 0 40px;
+  }
+  
+  .italic {
+    font-style: italic;
+    padding-right: 3px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    font-family: "Hubballi", cursive;
+    font-weight: bold;
+  }

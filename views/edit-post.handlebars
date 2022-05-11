@@ -1,0 +1,16 @@
+<div class="posts mx-6 my-6">
+  <h2 class="is-size-2">Edit Post</h2>
+  <form class="edit-post-form">
+    <div class="field">
+      <input class="input" name="post-title" value="{{post.title}}" />
+    </div>
+    <div class="field">
+      <textarea id="post-contents" class="textarea">{{post.contents}}</textarea>
+    </div>
+    <button type="submit">Save post</button>
+    <button type="button" class="delete-post-btn">Delete post</button>
+  </form>
+</div>
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>

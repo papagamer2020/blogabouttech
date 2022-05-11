@@ -1,0 +1,46 @@
+<div class="card">
+  <header class="card-header">
+    <p class="card-header-title is-5">{{post.title}}
+      <span class="card-header-title is-6" id="posted-by">Posted by
+        {{post.user.username}}
+        on
+        {{format_date post.created_at}}</span></p>
+  </header>
+  <div class="card-content">
+    <p>{{post.contents}}</p>
+  </div>
+</div>
+
+<div>
+  {{#each post.comments}}
+    <div class="card comments">
+      <div class="card-content">
+        <p>{{comment_text}}</p>
+      </div>
+      <footer class="card-footer">
+        <p class="card-footer-item">
+          <span class="italic">{{user.username}}</span>
+          commented on
+          {{format_date created_at}}</p>
+      </footer>
+    </div>
+  {{/each}}
+</div>
+
+{{#if loggedIn}}
+  <form class="comment-form">
+    <div>
+      <textarea
+        class="textarea"
+        name="comment-body"
+        placeholder="write comment here"
+      ></textarea>
+    </div>
+
+    <div>
+      <button class="button" type="submit">Add Comment</button>
+    </div>
+  </form>
+{{/if}}
+
+<script src="/javascript/comment.js"></script>
